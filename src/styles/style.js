@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   height: 100vh;
@@ -19,7 +19,7 @@ export const Box = styled.div`
   padding: 40px;
   border-radius: 20px;
   background: white;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 `;
 
 export const Title = styled.h1`
@@ -39,14 +39,14 @@ export const Button = styled.button`
   width: 100%;
   padding: 12px 16px;
   margin: 20px 0 0;
-  background-color: #FFD8A9;
+  background-color: #ffd8a9;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   font-weight: bold;
   transition: all 0.2s;
   &:hover {
-    background-color: #FFB347;
+    background-color: #ffb347;
   }
 `;
 
@@ -54,14 +54,14 @@ export const Input = styled.input`
   width: calc(100% - 40px);
   padding: 12px 16px;
   margin: 8px 0;
-  border: 2px solid #FFF0D5;
+  border: 2px solid #fff0d5;
   border-radius: 12px;
   font-size: 1rem;
   outline: none;
-  background: #FFF6E5;
+  background: #fff6e5;
   transition: 0.2s;
   &:focus {
-    border-color: #FFB347;
-    background-color: #FFF0D5;
+    border-color: #ffb347;
+    background-color: #fff0d5;
   }
 `;
