@@ -48,6 +48,7 @@ function Login() {
           onKeyDown={loginKeyDown}
         />
         <S.Button onClick={handleLogin}>로그인 🥰</S.Button>
+        <S.Button>회원가입 🥰</S.Button>
       </S.Box>
     </S.Wrapper>
   );
