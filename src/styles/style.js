@@ -19,7 +19,7 @@ export const Box = styled.div`
   padding: 40px;
   border-radius: 20px;
   background: white;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 `;
 
 export const Title = styled.h1`
